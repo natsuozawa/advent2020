@@ -11,7 +11,6 @@ int main() {
   while (!cin.eof()) {
     long long n; cin >> n;
     seq.push_back(n);
-    if (seq.size() == 1000) break;
   }
 
   vector<long long> cumsum(seq.size() + 1);
