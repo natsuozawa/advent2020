@@ -11,7 +11,6 @@ int H, W, N;
 int main() {
   while (!cin.eof()) {
     string s; cin >> s;
-    if (s == "-1") break;
     vector<int> v;
     for (int i = 0; i < s.size(); i++) {
       if (s.at(i) == 'L') v.push_back(1);
